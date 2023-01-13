@@ -14,6 +14,9 @@ export class AppComponent {
   filelist: any;
 
   addfile($event: any) {
+
+    // Lib Documentation: https://docs.sheetjs.com/docs/demos/frontend/angular
+
     this.file = $event.target.files[0];
     let fileReader = new FileReader();
 
